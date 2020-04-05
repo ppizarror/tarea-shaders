@@ -9,8 +9,9 @@
 
 # Importacion de librerias
 from OpenGL.GL import *
-import types
 import ctypes
+import types
+
 
 # Constantes
 DEFAULT_PROGRAM = 0

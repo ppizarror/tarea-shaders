@@ -10,6 +10,7 @@
 # Importacion de librerias
 from OpenGL.GL import *
 
+
 # Constantes
 DEFAULT_EMISSION = [0.0, 0.0, 0.0, 1.0]
 WHITE_EMISSION = [1.0, 1.0, 1.0, 1.0]

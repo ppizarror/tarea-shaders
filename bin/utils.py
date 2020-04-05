@@ -8,11 +8,14 @@
 # Fecha: JUNIO 2015
 
 # Importacion de liberias
-from utils_geometry import *
-import sys
 import os
 import random
+import sys
+
 from OpenGL.GLUT import *
+
+from utils_geometry import *
+
 
 # Definicion de constantes
 COLOR_BLACK = [0, 0, 0]

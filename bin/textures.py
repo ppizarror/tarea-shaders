@@ -9,7 +9,9 @@
 
 # Importacion de librerias
 from OpenGL.GL import *
+
 import numpy
+
 
 try:
     from PIL import Image

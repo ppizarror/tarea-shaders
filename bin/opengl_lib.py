@@ -9,9 +9,12 @@
 
 # Importacion de liberias
 from OpenGL.GL import *
+
 from OpenGL.GLU import *
 from OpenGL.GLUT import *
+
 from utils import *
+
 
 # Definicion de constantes
 _OPENGL_CONFIGS = [False]

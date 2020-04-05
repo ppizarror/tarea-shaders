@@ -22,6 +22,7 @@ from lib.constants import *
 from lib.events import *
 from lib.lights import *
 
+
 # Inicio de librerias
 initPygame(WINDOWS_SIZE[0], WINDOWS_SIZE[1], "Shaders", loadPythonImage(PATH_IMAGES + "icon.png"))
 initGl(transparency=False, materialcolor=False, normalized=True, lighting=True, numlights=NUM_LIGHTS,

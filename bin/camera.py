@@ -8,9 +8,12 @@
 # Fecha: JUNIO 2015
 
 # Importacion de librerias
-from utils_math import *
-from OpenGL.GLU import *
 from OpenGL.GL import *
+
+from OpenGL.GLU import *
+
+from utils_math import *
+
 
 # Constantes
 CAMERA_CENTER_LIMIT_Z_DOWN = -3500

@@ -10,6 +10,7 @@
 # Importacion de librerias
 import pygame
 from pygame.locals import *
+
 from constants import *
 
 
@@ -74,9 +75,9 @@ def handleEvents(camera, light1, light2, program, model):
     elif keys[K_e]:
         camera.rotateZ(CAMERA_ROT_VEL)
     # Acerca / aleja la camara
-    if keys[K_PLUS]:
+    if keys[K_n]:
         camera.close()
-    elif keys[K_MINUS]:
+    elif keys[K_m]:
         camera.far()
     # Rota la luz 1 (sol)
     if keys[K_UP]:

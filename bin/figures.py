@@ -9,11 +9,14 @@
 # Fecha: JUNIO 2015
 
 # Importacion de librerias
-from utils import *
-from opengl_lib import *
+import types
+
 from OpenGL.arrays import vbo
 from numpy import array
-import types
+
+from opengl_lib import *
+from utils import *
+
 
 # Constantes
 COLOR_BLACK = [0.0, 0.0, 0.0, 1.0]

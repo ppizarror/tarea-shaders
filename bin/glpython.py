@@ -11,6 +11,7 @@
 import pygame
 from pygame.locals import *
 
+
 # Constantes
 _DEFAULT_CAPTION = "Program title"
 

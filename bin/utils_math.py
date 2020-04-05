@@ -11,6 +11,7 @@
 import math
 import types
 
+
 # Constantes
 POINT_2 = "util-point-2"
 POINT_3 = "util-point-3"

@@ -8,8 +8,8 @@
 # Fecha: JUNIO 2015
 
 # Importacion de librerias
-from utils_math import *
 from OpenGL.GL import *
+from utils_math import *
 
 
 def drawVertexList(vertexList):

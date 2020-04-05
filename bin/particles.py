@@ -8,9 +8,10 @@
 # Fecha: JUNIO 2015
 
 # Importacion de librerias
-from utils import *
-import types
 from functools import partial
+import types
+
+from utils import *
 
 
 # Definicion de constantes
